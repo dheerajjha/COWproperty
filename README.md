@@ -31,7 +31,10 @@ struct COWproperty<T> {
         self.ref = Ref(wrappedValue)
     }
 }
+```
 
+use
+```
 struct Test {
     @COWproperty
     var cowBehaviourValue: Int = 5
