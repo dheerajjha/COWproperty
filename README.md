@@ -1,3 +1,6 @@
+COW(Copy On Write) is by default enabled for arrays and dictionaries in swift.
+Following code creates a property wrapper to enclose this behaviour in any property.
+
 ```
 import Foundation
 
